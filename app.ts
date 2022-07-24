@@ -16,7 +16,7 @@ for (let i = 0; i < blockNumbers; i++) {
   chain = blockchain.sendBlock(mine.minedBlock)
 }
 
-console.log('==========BLOCKCHAIN==========')
+console.log('\n========================================BLOCKCHAIN========================================\n')
 console.log(chain)
 
 app.listen(3000, () => console.log('Server is running'));
